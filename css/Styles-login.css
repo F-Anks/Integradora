@@ -1,0 +1,166 @@
+/* General */
+body {
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  background-color: #1f1f1f;
+  color: #e8eaed;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #050505a9;
+  padding: 2rem;
+  border-radius: 28px;
+  width: 100%;
+  max-width: 1050px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.section-2{
+
+
+}
+
+.section-2{
+  width: 400px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 90px ;
+}
+
+/* Titles */
+.title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+/* Input Container */
+.input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #5f6368;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4285f4;
+}
+
+.input-label {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #aaa;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus + .input-label,
+.input-field:not(:placeholder-shown) + .input-label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  color: #4285f4;
+  background-color: #171717;
+  padding: 0 5px;
+}
+
+/* Links */
+.link {
+  color: #4285f4;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Info */
+.info {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-account {
+  font-size: 0.9rem;
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.submit-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #357ae8;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.registrar{
+  display: flex;
+  margin: 10px;
+}
